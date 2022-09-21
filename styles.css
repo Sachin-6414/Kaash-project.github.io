@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.header ul li{
+    list-style: none;
+
+}
+
+.header ul li:hover{
+    color: orange;
+}
+
+.cname{
+    font: normal normal 36px 'Source Sans Pro',Arial,sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.nav1{
+    padding: 0px 15px 0px 15px;
+    font: normal normal 24px 'Source Sans Pro',Arial,sans-serif;
+    font-family: 'Source Sans Pro',Arial,sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    /* line-height: 15px; */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30px;
+    right: 260px;
+}
+
+.nav2{
+    padding: 0px 15px 0px 15px;
+    font: normal normal 24px 'Source Sans Pro',Arial,sans-serif;
+    font-family: 'Source Sans Pro',Arial,sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    /* line-height: 15px; */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30px;
+    right: 150px;
+    font-weight: 100;
+}
+
+.nav3{
+    padding: 0px 15px 0px 15px;
+    font: normal normal 24px 'Source Sans Pro',Arial,sans-serif;
+    font-family: 'Source Sans Pro',Arial,sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    /* line-height: 15px; */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 220px;
+    color: rgba(255,100,20,1);
+    font: normal normal 40px 'Playfair Display',Arial,serif;
+}
+
+.body-area h1{    
+    font: normal normal 38px Arial,Helvetica,sans-serif;
+    text-align: left;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    margin: 60px;
+    margin-top: 100px;
+}
+
+.body-area h2{
+    font: normal normal 38px Arial,Helvetica,sans-serif;
+    color: rgba(18, 24, 31, 0.9);
+    text-decoration: none;
+    text-align: left;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+    margin: 60px;
+    margin-top: 140px;
+    margin-bottom: 0;
+}
+
+.body-area p{
+    opacity: 1;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    flex: 0 0 auto;
+    margin: 60px;
+    margin-top: 10px;
+}
+
+.card-div{
+    display: flex;
+    margin-bottom: 50px;
+    padding: 80px;
+    background-image: url("./pexels-rodolfo-clix-1036936.jpg");
+    background-size: cover;
+}
+
+.cards p{
+    font-size: 17px;
+}
+
+.cards2 p{
+    font-size: 17px;
+}
+
+.cards{
+    width: 400px;
+    height: 500px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    -webkit-backdrop-filter: blur( 2px );
+    backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+    /* background-image: url("./pexels-andreea-ch-1166643.jpg");
+    background-size: cover; */
+    position: relative;
+    left: 13%;
+    text-align: center;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.cards a{
+    text-decoration: none;
+    color: orange;
+}
+
+#hover1:hover{
+    transform: scale(1.15);
+    color: orange;
+}
+
+.cards2{
+    width: 400px;
+    height: 500px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+    /* background-image: url("./pexels-andreea-ch-1166643.jpg");
+    background-size: cover; */
+    position: relative;
+    left: 27%;
+    text-align: center;
+}
+
+.cards2:hover{
+    transform: scale(1.1);
+}
+
+.cards2 a{
+    text-decoration: none;
+    color: orange;
+}
+
+#hover2:hover{
+    transform: scale(1.15);
+    color: orange;
+}
+
+footer a{
+    text-decoration: none;
+}
